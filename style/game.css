@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: "Roboto Light", "Roboto Thin", "Arial Rounded MT Bold", serif;
+}
+
+*:focus{
+    outline: none;
+}
+body{
+    background-color: black;
+    background-image: url("../Images/game/Batgame_1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 1% 7%;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-top: none;
+
+}
+
+/*menu*/
+
+header{
+    border-top: none;
+    border-bottom: 2px solid white;
+    padding: 2%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar li{
+    margin: 0 10px;
+}
+
+.bare-de-navigateur {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15% ;
+}
+
+.bare-de-navigateur ul li{
+    font-size: 3vw;
+}
+.bare-de-navigateur ul li:hover{
+    text-decoration: underline white 2px ;
+}
+
+
+main{
+    color: white;
+}
+
+
+/*LA premiere partie */
+
+
+.play{
+    margin: 10% 10% 40% 10%;
+}
+
+.fleche-bas,.btn1{
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.first-img{
+    text-align: center;
+}
+
+#chevalier{
+    width:80% ;
+    margin-bottom: 5%;
+}
+
+
+#btn-change , .btn-change1{
+    padding: 2% 4%;
+    background: linear-gradient(to left,#b97438,#585450);
+    color: white;
+    margin-bottom: 5%;
+}
+
+  /* scroll*/
+
+.scroll{
+    margin: -40% 0 0 82.5%;
+    position: fixed;
+}
+
+
+.fl a img:hover, #logob1:hover, .reseau img:hover{
+  filter: invert(4%) sepia(100%) saturate(1023%) hue-rotate(358deg) brightness(106%) contrast(107%);
+    -webkit-filter: invert(4%) sepia(100%) saturate(1023%) hue-rotate(358deg) brightness(106%) contrast(107%); ;
+
+}
+
+.reseau img{
+    display: block;
+    margin:auto;
+}
+
+   /*LE FOOTER*/
+
+
+.foot1 p{
+    display: flex;
+    text-align: center;
+    color: white;
+    margin: 0 25%;
+    
+}
+
+.Res{
+    margin-top: 5%;
+    text-align: center;
+
+}
+
+.x{
+    margin: 15px;
+}
+
+

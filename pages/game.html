@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GAME</title>
+    <link rel="stylesheet" href="../style/game.css">
+    <link rel="stylesheet" href="../style/questionnaire.css">
+</head>
+<body>
+    <!-- Menu   -->
+<header>
+    <nav class="bare-de-navigateur">
+        <div class="logo">
+            <a href="#"><img id="logob1" src="../Images/Logos/logohome.png" alt="Logo"></a>
+        </div>
+        <div class="menu">
+            <ul class="navbar">
+                <li><a href="../index.html" style="color: white">Home</a></li>
+                <li><a href="./game.html" style="color: white">Game</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+
+<main>
+    <div>
+        <h1 class="play">
+            LET'S PLAY A <br> LITTLE GAME ...
+        </h1>
+    </div>
+
+    <!--  -->
+
+    <section class="scroll">
+        <div class="fl">
+            <a href="#"><img id="idimg" src="../Images/Logos/logo_bat_flèche.png" alt=""></a>
+        </div>
+        <div class="reseau">
+            <img src="../Images/Logos/icon_facebook.png" alt=""> <br>
+            <img src="../Images/Logos/icon_ig.png" alt=""> <br>
+            <img src="../Images/Logos/icon_tw.png" alt=""> <br>
+        </div>
+        <div class="fl"><a href="#"><img src="../Images/Logos/logo_bat_flèche_2.png" alt=""></a>
+        </div>
+    </section>
+
+    <!--  fin  Le scroll bar-->
+    <div id="ici"></div>
+
+
+    <!--    Debut de la premiere partie-->
+
+    <div class="first-img">
+        <div class="fleche-bas">
+            <a href="#"><img src="../Images/Logos/flèche_down_header.png" alt="fleche-bas"></a>
+        </div>
+
+        <div class="title1">
+            <h2>CONNAISSEZ VOUS BIEN LE CHEVALIER NOIR ?</h2><br><br>
+        </div>
+        <div>
+            <img src="../Images/game/Batgame_2.png" alt="chevalier noir" id="chevalier">
+        </div>
+        <div>
+            <button id="btn-change"> DEMARER LE QUIZ</button>
+        </div>
+    </div>
+
+    <!--    QUIZ -->
+
+    <div  class="quizz" id="c1">
+        <div class="compteur">
+            <h1><span class="debut-compteur"></span> / <span class="fin-compteur"></span></h1>
+        </div>
+        <section class="questionnaires">
+            <div class="acteur">
+                <img src="../Images/game/Batgame_3.png" id="perso1" alt="Mec au look vert">
+            </div>
+            <div class="question">
+                <div class="ct">
+                    <h1 id="sujet"></h1>
+                </div>
+                <div id="reponse">
+                        <input type="checkbox"  id="case1" class="box">
+                        <label for="case1" id="rps1" class="reponse" ></label>
+                        <input type="checkbox"  id="case2" class="box" >
+                        <label for="case2" id="rps2" class="reponse"></label>
+                        <input type="checkbox"  id="case3" class="box">
+                        <label for="case3" id="rps3" class="reponse"></label>
+                </div>
+            </div>
+        </section>
+
+        <div class="btn1">
+            <button class="btn-change1" id="btn1"> QUESTION SUIVANT</button>
+        </div>
+    </div>
+
+</main>
+
+
+<footer>
+    <div class="foot1">
+        <p STYLE="color: white">
+            <span><img src="../Images/Logos/icon_WB.png" alt="t" id="wb"></span>
+            Ce projet respecte l’univers cinématographique des films Batman récents. Version Nolan & Snyder & Reeves</p>
+    </div>
+
+    <div class="Res">
+        <img src="../Images/Logos/icon_x.png" class="x" alt="x">
+        <img src="../Images/Logos/logo_sayna_white.png" alt="Sayna">
+        <img src="../Images/Logos/icon_DC.png" alt="dc">
+        <img src="../Images/Logos/icon_facebook.png" class="x" alt="fbf">
+        <img src="../Images/Logos/icon_ig.png" class="x" alt="ig">
+        <img src="../Images/Logos/icon_tw.png" class="x" alt="tw">
+    </div>
+</footer>
+
+<!--<script src="../js/script1.js"></script>-->
+<script src="../js/main.js"></script>
+</body>
+</html>

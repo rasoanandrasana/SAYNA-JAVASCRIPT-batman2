@@ -1,0 +1,45 @@
+.questionnaires{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin: 5% 10%;
+}
+
+.quizz, .score{
+    /*display: none;*/
+}
+
+
+#perso1{
+    width: 100%;
+}
+
+#case1, #case2, #case3{
+    margin: 3% 0;
+    width: 50px;
+    height: 30px;
+    background-color: green;
+}
+
+.reponse:hover{
+    background-color: darkslategrey;
+}
+
+.reponse{
+    background-color: darkgrey;
+    display: flex;
+    align-items: center;
+}
+
+.compteur{
+    text-align: center;
+
+}
+
+.score{
+    text-align: center;
+    margin-bottom:10% ;
+}
+#point{
+
+}
